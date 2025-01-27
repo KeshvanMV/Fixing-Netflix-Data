@@ -36,7 +36,9 @@ This project focuses on cleaning and preprocessing a Netflix movies dataset, tac
 ## 📂 Project Structure  
 
 📦 Netflix-Movies-Data-Cleaning
+
 │-- 📄 README.md # Project documentation
+
 │-- 📄 Netflix_Data_Analysis.ipynb # Jupyter Notebook with the code
 
 ---
