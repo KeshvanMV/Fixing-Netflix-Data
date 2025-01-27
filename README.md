@@ -1,18 +1,29 @@
 # Fixing-Netflix-Data
-# 📊 Netflix Movies Data Cleaning & Imputation Project
+#  Netflix Movies Data Cleaning & Imputation Project
 
 **Author:** Keshvan Vijay Rathnam  
 **Date:** January 24, 2025  
 
 ---
 
-## 📝 Project Overview  
+##  Project Overview  
 
 This project focuses on cleaning and preprocessing a Netflix movies dataset, tackling challenges related to missing values in key columns such as `Boxoffice` and `Languages`. Instead of dropping valuable data, various data imputation techniques—including statistical methods and machine learning models—were explored to retain and enrich the dataset.  
 
 ---
 
-## ⚙️ Project Workflow  
+## Dataset
+
+This project uses the *Netflix Rotten Tomatoes, Metacritic, IMDb Dataset* from Kaggle.  
+To download the dataset automatically, follow these steps:  
+
+1. Install the `kagglehub` library (if not already installed):  
+   ```bash
+   pip install kagglehub
+
+---
+
+##  Project Workflow  
 
 1. **Data Understanding & Exploration:**  
    - Identified missing values and patterns within the dataset.  
@@ -33,9 +44,9 @@ This project focuses on cleaning and preprocessing a Netflix movies dataset, tac
 
 ---
 
-## 📂 Project Structure  
+##  Project Structure  
 
-📦 Netflix-Movies-Data-Cleaning
+ Netflix-Movies-Data-Cleaning
 
 |-- LICENSE
 
@@ -45,7 +56,7 @@ This project focuses on cleaning and preprocessing a Netflix movies dataset, tac
 
 ---
 
-## 🚀 Technologies Used  
+##  Technologies Used  
 
 - **Programming Language:** Python  
 - **Libraries:**  
@@ -58,7 +69,7 @@ This project focuses on cleaning and preprocessing a Netflix movies dataset, tac
 
 ---
 
-## 📊 Key Results  
+##  Key Results  
 
 - Successfully reduced the missing values without unnecessary data loss.  
 - Boxoffice values were imputed using machine learning, improving data completeness.  
@@ -66,7 +77,7 @@ This project focuses on cleaning and preprocessing a Netflix movies dataset, tac
 
 ---
 
-## 🔍 Key Learnings  
+##  Key Learnings  
 
 - Importance of **effective column naming** for readability and usability.  
 - Exploring alternatives beyond simply dropping columns with high null values.  
@@ -75,7 +86,7 @@ This project focuses on cleaning and preprocessing a Netflix movies dataset, tac
 
 ---
 
-## 📈 Model Performance Summary  
+##  Model Performance Summary  
 
 | Model            | Training RMSE | Test RMSE | R² Score       |  
 |------------------|--------------|-----------|----------------|  
@@ -85,7 +96,7 @@ This project focuses on cleaning and preprocessing a Netflix movies dataset, tac
 
 ---
 
-## 📸 Visualizations  
+##  Visualizations  
 
 The following visualizations were used to validate the imputation effectiveness:
 
@@ -95,7 +106,7 @@ The following visualizations were used to validate the imputation effectiveness:
 
 ---
 
-## 📬 Contact
+##  Contact
 
 If you have any questions or feedback, feel free to reach out via:
 
@@ -103,6 +114,6 @@ LinkedIn: www.linkedin.com/in/keshvan-vijay-rathnam-408517160
 
 ---
 
-## 🔖 Acknowledgments
+##  Acknowledgments
 Special thanks to **Physics Wallah** for providing the course and guidance in data science.
 
